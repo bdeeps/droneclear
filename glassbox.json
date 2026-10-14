@@ -1,0 +1,98 @@
+{
+  "slug": "droneclear",
+  "box": 170,
+  "date": "2026-10-15",
+  "title": "DroneClear",
+  "question": "How does a drone fly?",
+  "hook": "A drone has no tilting blades and no gearbox, yet it hovers, climbs and turns on the spot. It does it by changing four propellers' speeds up to hundreds of times a second.",
+  "thumbText": "HOW A DRONE FLIES",
+  "field": "machines",
+  "minutes": 5,
+  "tags": [
+    "drone",
+    "quadcopter",
+    "pid",
+    "flight",
+    "physics",
+    "india"
+  ],
+  "explainer": [
+    {
+      "title": "The one-line idea",
+      "text": "A quadcopter moves by changing how fast four propellers spin. Speed up one side and it tips; speed up two diagonal propellers and it turns."
+    },
+    {
+      "title": "The part people get wrong",
+      "text": "A drone does not stay level by magic. A feedback loop measures the tilt hundreds of times a second, and a PID controller decides how hard to push back."
+    },
+    {
+      "title": "Keeping level",
+      "text": "The P, I and D dials set how hard, how long and how smoothly the drone corrects. Too much P makes it wobble; too little lets it sag."
+    },
+    {
+      "title": "Moving",
+      "text": "Lean to fly forward, speed all four to climb, and speed one diagonal pair to turn. The rotors never tilt."
+    },
+    {
+      "title": "The battery",
+      "text": "Watt-hours against hover power set the flight time, and every extra gram of payload costs minutes."
+    },
+    {
+      "title": "The rules and the uses",
+      "text": "India's Drone Rules, 2021 set green, yellow and red airspace and register drones on Digital Sky. Drones map, spray and deliver under official schemes."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Quadcopter",
+      "def": "A drone with four motors and propellers, two spinning clockwise and two anticlockwise."
+    },
+    {
+      "term": "Speed controller",
+      "def": "An electronic switch that sets how fast one motor turns by chopping the battery's power."
+    },
+    {
+      "term": "Gyroscope",
+      "def": "A sensor that measures how fast the drone is turning around each axis."
+    },
+    {
+      "term": "PID controller",
+      "def": "A feedback rule that combines a proportional push, an integral correction and a derivative brake."
+    },
+    {
+      "term": "Net thrust",
+      "def": "Total rotor push minus the drone's weight; only this part changes its height."
+    },
+    {
+      "term": "Watt-hour",
+      "def": "A unit of energy: one watt for one hour, equal to volts times amp-hours."
+    },
+    {
+      "term": "All-up weight",
+      "def": "The drone plus its battery and payload, which decides its class under the Drone Rules."
+    },
+    {
+      "term": "Digital Sky",
+      "def": "The DGCA's online platform for drone registration and the official airspace map."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "droneclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "title": "The history of the drone",
+  "tagline": "From a radio-controlled boat in 1898 to the quadcopters that map Indian villages and carry vaccines.",
+  "intro": "Remote control began on the water and in the air with radio signals, and the first pilotless aircraft were built in the First World War. Target drones came in the 1930s and 1940s. The quadcopter arrived when cheap sensors could keep four rotors level, and India has since written rules for the zones and the registration that every drone must follow.",
+  "eras": [
+    {
+      "id": "radio",
+      "name": "Radio control and first flights",
+      "from": 1898,
+      "to": 1945,
+      "color": "#8ef0ff",
+      "summary": "Tesla's patent, the first pilotless flights and the target drones of the Second World War."
+    },
+    {
+      "id": "cheap",
+      "name": "Cheap sensors and cameras",
+      "from": 1999,
+      "to": 2015,
+      "color": "#ffb547",
+      "summary": "Toy quadcopters gain cameras, and cheap gyroscopes make flight control small enough for every drone."
+    },
+    {
+      "id": "rules",
+      "name": "India writes its rules",
+      "from": 2021,
+      "to": 2026,
+      "color": "#ff7a59",
+      "summary": "The Drone Rules, the airspace map, the certification scheme and the amendments that followed."
+    },
+    {
+      "id": "work",
+      "name": "Drones at work",
+      "from": 2022,
+      "to": 2026,
+      "color": "#c49bff",
+      "summary": "Schemes for farmers, villages and remote areas use drones for spraying, mapping and small deliveries."
+    }
+  ],
+  "events": [
+    {
+      "year": 1898,
+      "date": "8 November 1898",
+      "era": "radio",
+      "art": "boat",
+      "key": true,
+      "title": "A vessel steered from a distance",
+      "who": "Nikola Tesla",
+      "where": "New York, USA",
+      "country": "USA",
+      "text": "Nikola Tesla received US Patent 613,809 for controlling a vessel's propulsion and steering from outside it. It is one of the earliest patents for radio-style remote control of a moving machine.",
+      "why": "Every drone is a machine steered by signals from a pilot who is not on board.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1918,
+      "date": "2 October 1918",
+      "era": "radio",
+      "art": "plane",
+      "key": false,
+      "title": "The Kettering Bug takes to the air",
+      "who": "Charles Kettering and the Dayton engineers",
+      "where": "Dayton, Ohio, USA",
+      "country": "USA",
+      "text": "The Kettering Bug, a small pilotless biplane, made its first flight on 2 October 1918, and that flight failed: it climbed too steeply, stalled and crashed. About 45 were built by the end of the war, and none were used in combat.",
+      "why": "It showed that an aircraft could fly without a pilot on board, with its control set in advance.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1935,
+      "date": "1935",
+      "era": "radio",
+      "art": "plane",
+      "key": false,
+      "title": "A radio target drone is shown to the army",
+      "who": "Reginald Denny and his Radioplane company",
+      "where": "California, USA",
+      "country": "USA",
+      "text": "In 1935 the company demonstrated a prototype radio-controlled target drone, the RP-1, to the US Army. Targets like these let gunners practise on a moving aircraft without a pilot in danger.",
+      "why": "Radio control was made practical for everyday, repeated flights, not just for experiments.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1940,
+      "date": "1940",
+      "era": "radio",
+      "art": "plane",
+      "key": true,
+      "title": "The first army order for radio targets",
+      "who": "US Army and Radioplane",
+      "where": "USA",
+      "country": "USA",
+      "text": "The US Army placed its first order with Radioplane in 1940, for 53 RP-4 target drones. A larger order for the RP-5, which became the OQ-2, followed in 1941.",
+      "why": "A government order turned radio-controlled flight into a product that could be built in numbers.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "1941 to 1945",
+      "era": "radio",
+      "art": "plane",
+      "key": false,
+      "title": "Nearly 15,000 target drones in the war",
+      "who": "Radioplane",
+      "where": "California, USA",
+      "country": "USA",
+      "text": "During the Second World War Radioplane built nearly fifteen thousand of its drones. Most were used as moving targets to train anti-aircraft crews.",
+      "why": "It was one of the first unmanned aircraft built in large numbers.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999",
+      "era": "cheap",
+      "art": "digital",
+      "key": true,
+      "title": "The first quadcopter with a camera",
+      "who": "Makers of toy and research quadcopters",
+      "where": "Japan and elsewhere",
+      "country": "Japan",
+      "text": "Small toy quadcopters were already sold in Japan in the early 1990s. The first quadcopter with a camera made in significant numbers was not designed until 1999.",
+      "why": "A camera turned the four-rotor toy into a machine that could look at the world from the air.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 2005,
+      "date": "c. 2005 to 2010",
+      "era": "cheap",
+      "art": "chip",
+      "key": true,
+      "title": "Cheap sensors make the quadcopter practical",
+      "who": "Electronics makers and hobbyists",
+      "where": "Worldwide",
+      "country": "World",
+      "text": "Around 2005 to 2010, electronics became cheap and light enough to make small flight controllers. The quadcopter layout then became popular for small unmanned aircraft.",
+      "why": "A gyroscope and accelerometer on a small chip could do the feedback loop that keeps a drone level (chapter 2).",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "25 August 2021",
+      "era": "rules",
+      "art": "scroll",
+      "key": true,
+      "title": "India notifies the Drone Rules, 2021",
+      "who": "Ministry of Civil Aviation",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "The Ministry of Civil Aviation notified the Drone Rules, 2021 in the Gazette on 25 August 2021. The rules sort drones by all-up weight, cover drones up to 500 kg, and run registration on the Digital Sky platform.",
+      "why": "It set the weight classes, the zones and the registration that drones still follow, and the 2022 and 2023 amendments built on it.",
+      "box": "rules",
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "24 September 2021",
+      "era": "rules",
+      "art": "compass",
+      "key": true,
+      "title": "India publishes its drone airspace map",
+      "who": "Government of India",
+      "where": "Digital Sky, online",
+      "country": "India",
+      "text": "The Prime Minister released India's airspace map for drones on 24 September 2021. It shows the red and yellow zones, and anyone can view it on Digital Sky without a login.",
+      "why": "Drone pilots must check the live map before every flight, because zone boundaries can change.",
+      "box": "rules",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "26 January 2022",
+      "era": "rules",
+      "art": "gear",
+      "key": false,
+      "title": "A certification scheme for drones",
+      "who": "Ministry of Civil Aviation",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "A notification of 26 January 2022 published the certification scheme for unmanned aircraft systems, which sets how new drone models are approved.",
+      "why": "Type certification checks that a drone model is safe before it is sold or flown.",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "January 2022",
+      "era": "work",
+      "art": "mountain",
+      "key": false,
+      "title": "Drones carry vaccines to remote areas",
+      "who": "ICMR (Indian Council of Medical Research)",
+      "where": "Manipur, Nagaland and the Andaman and Nicobar Islands",
+      "country": "India",
+      "text": "An ICMR-led pilot project to carry COVID-19 vaccines by drone was being rolled out in Manipur, Nagaland, and the Andaman and Nicobar Islands.",
+      "why": "Drones can reach places where roads are poor or cut off.",
+      "box": "uses",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "11 February 2022",
+      "era": "rules",
+      "art": "word",
+      "key": false,
+      "title": "First amendment to the Drone Rules",
+      "who": "Ministry of Civil Aviation",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "An amendment dated 11 February 2022 changed the rule on remote pilot certificates and gave owners of drones made or imported by 30 November 2021 until 31 March 2022 to register them.",
+      "why": "Amendments change the rules, so pilots and owners must check the current text.",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "May 2022",
+      "era": "work",
+      "art": "wind",
+      "key": true,
+      "title": "The Kisan Drone scheme for farmers",
+      "who": "Ministry of Agriculture and Farmers Welfare",
+      "where": "India",
+      "country": "India",
+      "text": "At its launch in May 2022, the government offered farmers subsidies to buy drones for spraying and mapping. Press reports gave 50% of the cost, up to Rs 5 lakh, for SC-ST, small, marginal and women farmers. This is from press reports and has not been checked at source.",
+      "why": "Spraying by drone covers a field quickly and keeps the operator away from the chemical.",
+      "box": "uses",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "27 September 2023",
+      "era": "rules",
+      "art": "word",
+      "key": false,
+      "title": "A second amendment widens who can be a pilot",
+      "who": "Ministry of Civil Aviation",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "An amendment dated 27 September 2023 let applicants use other government-issued identity and address proofs, such as a voter ID or driving licence, on the registration form. This is from the amendment's summary, not checked clause by clause.",
+      "why": "Registration became simpler, but the rules on flying still apply.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "4 November 2024",
+      "era": "work",
+      "art": "person",
+      "key": true,
+      "title": "Namo Drone Didi",
+      "who": "Ministries of agriculture, rural development and fertilisers",
+      "where": "India",
+      "country": "India",
+      "text": "The Namo Drone Didi scheme aims to give drones to 15,000 women's self-help groups over 2024-25 and 2025-26. The groups rent the drones to farmers, mostly to spray liquid fertiliser and pesticide. The Centre covers 80% of the cost, up to Rs 8 lakh per drone.",
+      "why": "It turns drone flying into a source of income for rural women, with training built in.",
+      "box": "uses",
+      "sources": [
+        6
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Radio-control patent for steering a vessel",
+      "value": "8 Nov 1898",
+      "who": "Nikola Tesla, USA"
+    },
+    {
+      "label": "India's airspace map for drones released",
+      "value": "24 Sep 2021",
+      "who": "Government of India"
+    },
+    {
+      "label": "Namo Drone Didi scheme (aim)",
+      "value": "15,000 drones",
+      "who": "Women's self-help groups, India"
+    }
+  ],
+  "people": [
+    {
+      "name": "Nikola Tesla",
+      "life": "1856 – 1943",
+      "role": "Inventor",
+      "from": "Serbia and USA",
+      "note": "Patented the remote steering of a vessel in 1898."
+    },
+    {
+      "name": "Charles Kettering",
+      "life": "1876 – 1958",
+      "role": "Engineer",
+      "from": "USA",
+      "note": "Led the team that built the Kettering Bug in 1918."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "A quadcopter has no swashplate: the speed of each rotor does the steering.",
+    "Two propellers turn clockwise and two anticlockwise, so their twists cancel and the body stays still.",
+    "India's green airspace for drones runs up to 400 feet (120 m), the same height limit as the FAA's Part 107.",
+    "Under the Drone Rules, 2021, a drone's class depends on its all-up weight, payload included."
+  ],
+  "sources": [
+    {
+      "title": "US Patent 613,809: controlling a vessel from a distance",
+      "publisher": "Google Patents (read at source)",
+      "url": "https://patents.google.com/patent/US613809A/en"
+    },
+    {
+      "title": "Kettering Bug",
+      "publisher": "Wikipedia (read at source)",
+      "url": "https://en.wikipedia.org/wiki/Kettering_Bug"
+    },
+    {
+      "title": "Radioplane OQ-2",
+      "publisher": "Wikipedia (read at source)",
+      "url": "https://en.wikipedia.org/wiki/Radioplane_OQ-2"
+    },
+    {
+      "title": "History of unmanned aerial vehicles",
+      "publisher": "Wikipedia (read at source)",
+      "url": "https://en.wikipedia.org/wiki/History_of_unmanned_aerial_vehicles"
+    },
+    {
+      "title": "Quadcopter",
+      "publisher": "Wikipedia (read at source)",
+      "url": "https://en.wikipedia.org/wiki/Quadcopter"
+    },
+    {
+      "title": "The Drone Rules, 2021 (backgrounder, 28 January 2022)",
+      "publisher": "Ministry of Civil Aviation, PIB",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jan/doc202212810701.pdf"
+    },
+    {
+      "title": "Namo Drone Didi (release, 4 November 2024)",
+      "publisher": "PIB, Government of India",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/nov/doc2024114428601.pdf"
+    },
+    {
+      "title": "Drone Rules, 2021, Gazette notification 229221 (cited by PIB; not opened directly)",
+      "publisher": "Gazette of India",
+      "url": "https://egazette.nic.in/WriteReadData/2021/229221.pdf"
+    },
+    {
+      "title": "14 CFR 107.51, operating limitations for small unmanned aircraft",
+      "publisher": "Cornell Law School (LII mirror of the CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/107.51"
+    },
+    {
+      "title": "14 CFR 107.39, operation over human beings",
+      "publisher": "Cornell Law School (LII mirror of the CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/107.39"
+    },
+    {
+      "title": "Drone (Amendment) Rules, 2023 (search result; not opened)",
+      "publisher": "Ministry of Civil Aviation",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2024-04/Drone%20%28Amendment%29%20Rules%2C%202023.pdf"
+    },
+    {
+      "title": "Drone (Amendment) Rules, 2022 dated 11 Feb 2022 (search result; not opened)",
+      "publisher": "Ministry of Civil Aviation",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2025-11/drone-amendment-rules-2022-dated-11-feb-2022.pdf"
+    },
+    {
+      "title": "Government to provide 50% subsidy to farmers, women and SC-ST to buy drones (press report; not opened at source)",
+      "publisher": "Krishi Jagran",
+      "url": "https://krishijagran.com/agriculture-world/government-to-provide-50-subsidy-to-farmers-women-and-sc-st-to-buy-drones/"
+    }
+  ]
+}
